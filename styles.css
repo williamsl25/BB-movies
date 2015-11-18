@@ -1,6 +1,11 @@
+.header {
+  font-family: "Rancho", cursive;
+  text-align: center;
+  font-size: 4.0em; }
+
 .container {
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-top: 0px;
+  padding-bottom: 10px; }
 
 h2 {
   font-family: "Rancho", cursive;
@@ -27,9 +32,9 @@ p {
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
 
-#submitListing, #deletePost, #editPost, #submitEdit {
+#submitListing, #deletePost, #editPost {
   border-color: #7e7496; }
-  #submitListing:hover, #deletePost:hover, #editPost:hover, #submitEdit:hover {
+  #submitListing:hover, #deletePost:hover, #editPost:hover {
     background-color: #7e7496;
     color: white;
     -webkit-transition: all 1s ease;
@@ -77,9 +82,9 @@ img {
   max-width: 300px;
   max-height: 400px;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   padding-top: 5px;
-  margin-left: 25px; }
+  margin-left: 117px; }
 
 #submitEdit {
   margin: 5px;

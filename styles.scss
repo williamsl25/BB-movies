@@ -13,9 +13,14 @@ $main-font: 'Rancho', cursive;
   -o-transition:$buttonTransition;
   transition:$buttonTransition;
 }
+.header {
+  font-family: $main-font;
+  text-align: center;
+  font-size: 4.0em;
+}
 .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -104,13 +109,12 @@ img {
   max-width: 300px;
   max-height: 400px;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   padding-top: 5px;
-  margin-left: 25px;
+  margin-left: 117px;
 }
 
 #submitEdit {
-  @extend #submitListing;
   margin: 5px;
   display: none;
 }
