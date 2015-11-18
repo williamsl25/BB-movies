@@ -3,16 +3,17 @@
   padding-bottom: 30px; }
 
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Rancho", cursive;
   text-align: center; }
 
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Rancho", cursive;
   color: #b2a6a6;
   text-align: center; }
 
 p {
-  font-family: "Playfair Display", serif; }
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em; }
 
 #newPoster {
   width: 100%;
@@ -42,8 +43,8 @@ p {
   padding: 20px;
   margin: 20px auto 20px auto; }
   #createMovie label {
-    font-size: 1.2em;
-    font-family: "Playfair Display", serif; }
+    font-size: 2.0em;
+    font-family: "Rancho", cursive; }
 
 /* section {
   display: flex;
